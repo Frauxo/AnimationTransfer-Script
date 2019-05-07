@@ -1,0 +1,8 @@
+import sys
+if "C:/Users/BTH/Desktop/AnimationTransferScript/Skeleton_Transfer/" not in sys.path:
+    sys.path.append("C:/Users/BTH/Desktop/AnimationTransferScript/Skeleton_Transfer/")
+    import loadXMLUI
+    
+reload(loadXMLUI)
+ui = loadXMLUI.loadUI("C:/Users/BTH/Desktop/AnimationTransferScript/Skeleton_Transfer/AnimationGUI.ui")
+cont = loadXMLUI.UIController(ui)
